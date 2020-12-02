@@ -7,12 +7,12 @@
   font-style: normal;
   font-weight: normal;
  
-  src: url('PadThai.eot');
-  src: url('PadThai.eot?#iefix') format('embedded-opentype'),
-      url('PadThai.woff2') format('woff2'),
-      url('PadThai.woff') format('woff'),
-      url('PadThai.ttf') format('truetype'),
-      url('PadThai.svg#PadThai') format('svg');
+ src: url('pad-thai-cufonfonts-webfont/PadThai.eot');
+  src: url('pad-thai-cufonfonts-webfont/PadThai.eot?#iefix') format('embedded-opentype'),
+      url('pad-thai-cufonfonts-webfont/PadThai.woff2') format('woff2'),
+      url('pad-thai-cufonfonts-webfont/PadThai.woff') format('woff'),
+      url('pad-thai-cufonfonts-webfont/PadThai.ttf') format('truetype'),
+      url('pad-thai-cufonfonts-webfont/PadThai.svg') format('svg');
  
   font-display: swap;
 }
