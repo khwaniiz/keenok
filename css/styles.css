@@ -6,8 +6,17 @@
   font-family: 'Pad Thai', sans-serif;
   font-style: normal;
   font-weight: normal;
-  src: local('Pad Thai'), url('pad-thai-cufonfonts-webfont/PADTHAI_.woff') format('woff');
-  }
+ 
+  src: url('PadThai.eot');
+  src: url('PadThai.eot?#iefix') format('embedded-opentype'),
+      url('PadThai.woff2') format('woff2'),
+      url('PadThai.woff') format('woff'),
+      url('PadThai.ttf') format('truetype'),
+      url('PadThai.svg#PadThai') format('svg');
+ 
+  font-display: swap;
+}
+  
 
 
 :root {
