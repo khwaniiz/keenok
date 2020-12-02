@@ -1,0 +1,338 @@
+@import 'utilities.css';
+@import 'styles.css';
+
+body {
+    background-color: #f9f9f9;
+}
+
+.pages {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/lisheng-chang-m9BBVrPl87M-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pop {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/colin-mcmurry-aVpCEGVJK0w-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.pagetitle-text {
+    font-family: var(--ff-tertiary);
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 4rem;
+}
+
+section .story {
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.story .grid {
+    grid-template-columns: 35% 65%;
+    
+}
+
+.story img {
+    width: 350px;
+    justify-content: start;
+}
+
+.story-text {
+    padding: 2rem;
+}
+
+.story p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #afafaf;
+    line-height: 1.5;    
+}
+
+/* 
+========================
+  Events Menu
+========================
+*/
+
+.menu .grid {
+  justify-content: start;
+}
+
+.menu-card {
+  background-color: #fff;
+  width: 80%;
+  margin: -8rem auto 5rem auto;
+  box-shadow: var(--dark-shadow);
+  border-radius: 10px;
+  padding-bottom: 1rem;
+    
+}
+
+.card-header-img {
+  margin-top: 5rem;
+  width: 200px;
+   
+}
+
+.starters .card-img,
+.mains .card-img {
+  margin-top: 1rem;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.menu-card-header {
+  text-align: center;
+}
+
+.menu-title {
+  color: #333;
+  margin-top: -4rem;
+  margin-bottom: 1rem;;
+}
+
+.starters, .mains{
+ flex-direction: column;
+ justify-content: flex-start;
+   
+}
+
+.starters h2,
+.mains h2 {
+    color: #ff7417;
+    text-align: center;
+    font-size: 1.55rem;
+    margin-top: 5rem;
+    font-weight: 300;
+    margin-bottom: -2rem;
+}
+
+.starter {
+  margin-top: 3.5rem;
+  
+}
+ .starter-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed #afafaf;
+    margin-bottom: 1.5rem;
+    
+}
+
+.starter-header h3 {
+    font-size: 1.1rem;
+    font-weight: 300;
+  
+    color: #333;
+}
+
+
+.menu-paragraph {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #afafaf;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+
+
+/* 
+========================
+Past Events
+========================
+*/
+
+
+.band {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+  
+  .band > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  
+  @media only screen and (min-width: 500px) {
+    .band {
+      -ms-grid-columns: 1fr 20px 1fr;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (min-width: 850px) {
+    .band {
+      -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  .card-container {
+    background: white;
+    text-decoration: none;
+    color: #444;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+  
+    position: relative;
+    top: 0;
+    -webkit-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+  }
+  
+  .card-container:hover {
+    top: -2px;
+    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-container article {
+    padding: 20px;
+  }
+  
+  /* typography */
+  .card-container h1 {
+    font-size: 1rem;
+    margin: 0;
+    color: var(--text-primary);
+    font-weight: 400;
+  }
+
+/* 
+========================
+Contact
+========================
+*/
+
+.contact {
+  min-height: 50vh;
+}
+
+.contact-logo {
+    margin: 2rem 0 2rem 0;
+    padding: 1rem;
+}
+
+.contact-credit a, .contact-credit span {
+    color: #afafaf;
+    font-weight: 300;
+   
+}
+
+.contact-credit a {
+    text-decoration: underline;
+    transition: all .3s ease;
+  }
+  
+
+.contact-credit a:hover {
+  text-decoration: none;
+
+}
+
+
+  /* Tablets and under */
+  @media (max-width: 768px) {
+    .grid,
+  .story .grid{
+    grid-template-columns: 1fr;
+   
+  }
+
+  .starters h2,
+.mains h2 {
+    margin-top: 3.5rem;
+    margin-bottom: -2rem;
+}
+
+
+.starter {
+  margin-top: 3rem;
+}
+
+
+
+  }
+  
+  /* Mobile */
+  @media (max-width: 500px) {
+
+    .story img {
+        width: 250px;
+    }
+
+    .story-text {
+        padding: 0;
+    }
+
+    .menu .grid{
+      justify-content: center;
+     }
+
+     .pagetitle-text {
+       font-size: 2.75rem;
+     }
+
+     .starters h2,
+     .mains h2 {
+       font-size: 1.5rem;
+     }
+
+     
+   
+  }
+
+  @media (max-width: 500px) {
+
+    .story img {
+        width: 200px;
+    }
+  }
+  
