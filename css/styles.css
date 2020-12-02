@@ -670,6 +670,10 @@ ul {
       
     }
 
+    .hero {
+      background-attachment: scroll;
+    }
+
 
   }
   
@@ -724,6 +728,8 @@ ul {
     .about-paragraph {
 font-size: 1rem;
     }
+
+
   
 
   }

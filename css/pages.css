@@ -298,6 +298,13 @@ Contact
 }
 
 
+.pop, .pages {
+ 
+  background-attachment: scroll;
+}
+
+
+
 
   }
   
