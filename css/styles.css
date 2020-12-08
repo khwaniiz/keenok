@@ -371,6 +371,7 @@ ul {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  z-index: +1;
 }
 
 .icons-bar a {
