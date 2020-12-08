@@ -140,7 +140,7 @@ section .story {
     align-items: center;
     border-bottom: 1px dashed #afafaf;
     margin-bottom: 1.5rem;
-    
+    margin-top: 1.5rem;
 }
 
 .starter-header h3 {
