@@ -128,6 +128,7 @@ section .story {
     font-size: 1.55rem;
     margin-top: 5rem;
     font-weight: 300;
+    /* margin-bottom: 1rem; */
 }
 
 .starter {
@@ -141,6 +142,7 @@ section .story {
     border-bottom: 1px dashed #afafaf;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
+    
 }
 
 .starter-header h3 {
@@ -287,6 +289,7 @@ Contact
   .starters h2,
 .mains h2 {
     margin-top: 3.5rem;
+    
 }
 
 
@@ -296,7 +299,7 @@ Contact
 
 
 .pop, .pages {
- 
+  
   background-attachment: scroll;
 }
 
